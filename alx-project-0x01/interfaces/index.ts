@@ -17,11 +17,11 @@ export interface UserProps {
 }
 
 export interface Address {
-    street:  string;
-    suite:   string;
-    city:    string;
+    street: string;
+    suite: string;
+    city: string;
     zipcode: string;
-    geo:     Geo;
+    geo: Geo;
 }
 
 export interface Geo {
